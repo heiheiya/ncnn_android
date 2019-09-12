@@ -39,7 +39,7 @@ public class NCNNDetectorActivity extends CameraActivity implements OnImageAvail
     private static final int TF_OD_API_INPUT_SIZE = 300;
     private static final String TF_OD_API_MODEL_PARAM_FILE = "MobileNetSSD_deploy.param.bin";
     private static final String TF_OD_API_MODEL_BIN_FILE = "MobileNetSSD_deploy.bin";
-    private static final String TF_OD_API_LABELS_FILE = "chaoyingDataset1_ncnn.txt";
+    private static final String TF_OD_API_LABELS_FILE = "mydetect_ncnn.txt";
 
     // Which detection model to use: by default uses Tensorflow Object Detection API frozen
     // checkpoints.
